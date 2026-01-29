@@ -1,0 +1,26 @@
+# FastAPI y servidor
+fastapi==0.109.0
+uvicorn[standard]==0.27.0
+python-multipart==0.0.6
+
+# Base de datos
+sqlalchemy==2.0.25
+psycopg2-binary==2.9.9
+alembic==1.13.1
+
+# Configuración
+pydantic==2.5.3
+pydantic-settings==2.1.0
+python-dotenv==1.0.0
+
+# IA
+anthropic==0.18.1
+openai==1.12.0
+
+# Scraping
+playwright==1.41.0
+beautifulsoup4==4.12.2
+
+# Utilidades
+httpx==0.26.0
+python-dateutil==2.8.2
