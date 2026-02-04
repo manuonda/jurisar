@@ -1,9 +1,10 @@
-# FastAPI - Framework para crear APIs REST
+# FastAPI y servidor
 fastapi==0.109.0
-
-# Uvicorn - Servidor ASGI que ejecuta FastAPI
-# [standard] incluye dependencias adicionales para mejor rendimiento
 uvicorn[standard]==0.27.0
-
-# Para manejar formularios y archivos en las peticiones
 python-multipart==0.0.6
+
+# IA - Claude API
+anthropic==0.18.1
+
+# Variables de entorno
+python-dotenv==1.0.0
