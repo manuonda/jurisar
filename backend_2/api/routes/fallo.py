@@ -1,13 +1,13 @@
 """
-Endpoints para la gestion de fallos
-Esta API maneja las operaciones de CRUD para los fallos judiciales
+Endpoint para analizar fallos judiciales
 """
 
 from fastapi import APIRouter
-from typing import List 
-from pydantic import BaseModel 
+from core.services.ia_service import IAService
+from typing import Optional, List
 
 router = APIRouter()
+ia_service = IAService()
 
 # Modelo de Datos simple 
 class FalloSimple(BaseModel):
