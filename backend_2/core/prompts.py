@@ -96,6 +96,11 @@ A continuación, procesa el siguiente fallo judicial.
 ### ETIQUETAS OFICIALES DISPONIBLES (Taxonomía SAIJ):
 {etiquetas_formateadas}
 
+### FORMATO DE SALIDA (JSON ESTRICTO)
+- Responde SOLO con JSON válido.
+- No incluyas markdown, comentarios ni texto adicional.
+
+
 ### TEXTO DEL FALLO A ANALIZAR:
 -----------------------------------------
 {texto_del_fallo}
